@@ -1,0 +1,30 @@
+[
+  {
+    "id": "80a9de08-acba-4642-992e-806f561231f6",
+    "title": "Nanobanana's Adventure",
+    "author": "nanobananapro",
+    "description": "The epic journey of a nano banana in a macro world.",
+    "coverImage": "https://placehold.co/400x600/00C300/white?text=Nano+Banana",
+    "userId": "aa5d1e9c-79e3-4889-b4e8-fb52da9d9f51",
+    "chapters": [
+      {
+        "id": "d011bb03-eaa8-4e8f-9a01-094b02ae398c",
+        "title": "Chapter 1: Awakening",
+        "content": "The banana woke up.",
+        "pages": []
+      },
+      {
+        "id": "53911635-65bc-4182-a87a-11d1fce05109",
+        "title": "Chapter 2: The Peel",
+        "content": "It was slippery.",
+        "pages": []
+      },
+      {
+        "id": "08109f7e-3045-483e-b042-e9c4f217b55d",
+        "title": "Chapter 3: Potassium Power",
+        "content": "Energy boost!",
+        "pages": []
+      }
+    ]
+  }
+]

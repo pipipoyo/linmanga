@@ -1,0 +1,51 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id       String  @id @default(uuid())
+  name     String?
+  email    String  @unique
+  password String?
+  role     String  @default("user")
+  mangas   Manga[]
+}
+
+model Manga {
+  id          String    @id @default(uuid())
+  title       String
+  author      String
+  description String?
+  coverImage  String?
+  userId      String
+  user        User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  chapters    Chapter[]
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+}
+
+model Chapter {
+  id        String   @id @default(uuid())
+  title     String
+  content   String? // For text-based content or URL to PDF/Images
+  mangaId   String
+  manga     Manga    @relation(fields: [mangaId], references: [id], onDelete: Cascade)
+  createdAt DateTime @default(now())
+  pages     Page[]
+}
+
+model Page {
+  id        String  @id @default(uuid())
+  imageUrl  String
+  pageNumber Int
+  chapterId String
+  chapter   Chapter @relation(fields: [chapterId], references: [id], onDelete: Cascade)
+}

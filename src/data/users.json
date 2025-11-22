@@ -1,0 +1,41 @@
+[
+  {
+    "id": "fca1e9f5-ec52-42f6-9e51-dc2c22f63d87",
+    "name": "Test User",
+    "email": "test@example.com",
+    "password": "$2b$10$pv6UMBwpwPqzV8Oqc8Igr.tFIBnWYDRiLJlQ1rhkLwVGv79zx.zjG",
+    "role": "admin"
+  },
+  {
+    "id": "4b0245de-414b-4f42-b350-987b653d0741",
+    "name": "aaa",
+    "email": "mt114917797@gmail.com",
+    "password": "$2b$10$HGh28/nXDCn7YQfjJjVaQeyzi2cDPHoMG576udTRvvXiBtauzmq2y",
+    "role": "admin"
+  },
+  {
+    "id": "f28fa254-5946-45a7-b49c-30fe5af7cc34",
+    "name": "Test User",
+    "email": "networkpiyo55@gmail.com",
+    "password": "$2b$10$IpqCCjlxHsRBKaso5.ZSTOhj0uxhSPGaJkcKBfTpdSTrFdmqudY/G"
+  },
+  {
+    "id": "7ec1b297-82aa-4458-98fe-2276cbdfa2db",
+    "name": "Test User",
+    "email": "test4@example.com",
+    "password": "$2b$10$BBn/Lz4A.ph1.5qUaFU.pek/03x6xY2Hm0Pjr6oNwTXY/ZY7W5DGO"
+  },
+  {
+    "id": "b527f427-30ca-4ca0-a146-a07b66c26e27",
+    "name": "aaaaa",
+    "email": "test5@example.com",
+    "password": "$2b$10$v1FXLtEn3iVg2MtLvQL.3encumNsGCJyN6cG8UN7O2KJRu5a18JDe"
+  },
+  {
+    "id": "aa5d1e9c-79e3-4889-b4e8-fb52da9d9f51",
+    "name": "nanobananapro",
+    "email": "nanobananapro@example.com",
+    "password": "$2b$10$u/RiW6DdM1Io9Zm4G5BXtOfXz1oeLTS5MAvqdY4yJwb4t8IXLkEqi",
+    "role": "user"
+  }
+]
