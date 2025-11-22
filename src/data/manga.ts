@@ -7,11 +7,13 @@ export const MOCK_MANGA: Manga[] = [
         author: '山田 太郎',
         description: '勇者が魔王を倒すために旅に出る物語。',
         coverImage: 'https://placehold.co/400x600/png?text=Adventure',
+        userId: 'mock-user',
         chapters: [
             {
                 id: 'c1',
                 title: '第1話 旅立ち',
                 number: 1,
+                content: [],
                 pages: [
                     'https://placehold.co/600x800/png?text=Page+1',
                     'https://placehold.co/600x800/png?text=Page+2',
@@ -26,11 +28,13 @@ export const MOCK_MANGA: Manga[] = [
         author: '鈴木 花子',
         description: 'とある街の日常を描いたほのぼのストーリー。',
         coverImage: 'https://placehold.co/400x600/png?text=Daily+Life',
+        userId: 'mock-user',
         chapters: [
             {
                 id: 'c1',
                 title: '第1話 朝のコーヒー',
                 number: 1,
+                content: [],
                 pages: [
                     'https://placehold.co/600x800/png?text=Page+1',
                     'https://placehold.co/600x800/png?text=Page+2',
